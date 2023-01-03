@@ -3,13 +3,19 @@ nav {
     width: 100vw;
     position: relative;
     top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-container{
+    width: 100%;
+    max-width: 1400px;
     padding: 0px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
 }
-
 nav .logo {
     display: flex;
     height: 3.5vw;
@@ -28,7 +34,7 @@ nav .logo {
 .menu_btn {
     margin-left: 50px;
     font-weight: bold;
-    font-size: var(--fz18);
+    font-size: var(--fz26);
     letter-spacing: 5px;
     margin-right: -3px;
 }

@@ -7,7 +7,7 @@
     padding: 0;
     position: relative;
     box-sizing: border-box;
-    font-family: Hiragino Sans GB Std, serif;
+    font-family: Hiragino Sans GB Std;
     font-weight: normal;
     text-decoration: none;
     user-select: none;
@@ -45,7 +45,6 @@ body {
     background-color: #fff;
     color: #000;
     overflow-x: hidden;
-    font-family: 'HiraKaku', serif;
 }
 
 button {

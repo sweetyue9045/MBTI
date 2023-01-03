@@ -27,10 +27,7 @@ function Home() {
                         </div>
 
                     </div>
-
-                    <div className="cover">
-                        <img src={BANNER} alt="cover.png" />
-                    </div>
+                    <img src={BANNER} alt="cover.png" />
                 </div>
                 <div className="home-content">
                     {homeData.map((item) => {
