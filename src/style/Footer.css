@@ -1,0 +1,31 @@
+footer {
+    height: 5vw;
+    position: relative;
+    padding: 0 60px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+footer .logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 2vw;
+    width: 16.5vw;
+}
+
+footer .f_btn{
+    width: 2.5vw;
+    margin-left: 25px;
+}
+
+footer .f_btn img{
+    width: 100%;
+}
