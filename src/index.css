@@ -7,7 +7,7 @@
     padding: 0;
     position: relative;
     box-sizing: border-box;
-    font-family: Hiragino Sans GB Std;
+    font-family: 'ヒラギノ角ゴ ProN W6','Hiragino Sans GB Std';
     font-weight: normal;
     text-decoration: none;
     user-select: none;
@@ -26,6 +26,7 @@
 
 :root {
     --fz60: 60px;
+    --fz45: 45px;
     --fz36: 36px;
     --fz32: 32px;
     --fz30: 30px;

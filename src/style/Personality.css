@@ -1,12 +1,86 @@
+.personality-container .Banner{
+    align-items: flex-end;
+}
+.personality-container .Banner .title{
+    display: flex;
+    align-items: flex-end;
+}
+.Banner .typeLetter{
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    letter-spacing: 2px;
+    font-size: var(--fz60);
+    line-height: var(--fz60);
+}
+.Banner .typeChinese{
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    letter-spacing: 1px;
+    font-size: var(--fz30);
+    line-height: var(--fz30);
+    margin: 0 0 5px 30px
+}
+.Banner .subTitle{
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    letter-spacing: 2px;
+    font-size: var(--fz36);
+}
+.personality-container .Banner .content{
+    letter-spacing: 1px;
+    font-size: var(--fz24);
+    width: 40vw;
+}
 .personality-container .Banner img {
     right: 10vw;
 }
-
-.Banner .typeLetter{
-    font-weight: bold;
+.personality-content{
+    max-width: 1776px;
+    margin: 140px 110px 0 110px;
+    position: relative;
+    letter-spacing: 2px;
+}
+.section-title{
     font-family: 'ヒラギノ角ゴ ProN W8';
     letter-spacing: 2px;
-    width: 13vw;
-    border: 6px solid #000;
-    font-size: var(--fz60);
+    font-size: var(--fz45);
+    margin: 70px 0 50px;
+}
+.section-content{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.lettermeans-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lettermeans-chinese{
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    letter-spacing: 2px;
+    font-size: var(--fz36);
+}
+.lettermeans-english{
+    letter-spacing: 1px;
+    font-size: var(--fz24);
+}
+.cognition-title{
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+.list-style{
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+}
+.cognition-title-text{
+    margin-left: 25px;
+    letter-spacing: 2px;
+    font-size: var(--fz36);
+}
+.cognition-text{
+    margin: 25px 0 35px 2px;
+    letter-spacing: 1px;
+    font-size: var(--fz24);
 }

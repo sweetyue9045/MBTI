@@ -1,8 +1,6 @@
 import "../style/Nav.css";
-
-import LOGO from "../assets/images/nav_logo.png";
-
 import { Link } from "react-router-dom";
+import LOGO from "../assets/images/nav_logo.png";
 
 export default function Nav({ posi }) {
     return (

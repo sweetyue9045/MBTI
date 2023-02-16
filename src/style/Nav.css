@@ -32,9 +32,9 @@ nav .logo {
 }
 
 .menu_btn {
-    margin-left: 50px;
+    margin-left: 80px;
     font-weight: bold;
     font-size: var(--fz26);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     margin-right: -3px;
 }

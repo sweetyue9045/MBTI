@@ -1,13 +1,13 @@
 import "../style/Home.css";
+import { Link } from "react-router-dom";
+import BANNER from "../assets/images/home_cover.png";
 import Nav from "../components/Nav";
 import homeData from "../assets/jsons/home.json";
 import Section from "../components/H_section";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 // import { useState, useEffect, createContext } from "react";
 
 // export const ScrollY = createContext();
-import BANNER from "../assets/images/cover_old.png";
 
 function Home() {
     return (
