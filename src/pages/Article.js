@@ -1,4 +1,5 @@
 import "../style/Article.css";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import BANNER from "../assets/images/article_cover.png";
 import Btn from "../assets/images/downBtn.png";
@@ -9,6 +10,9 @@ import Footer from "../components/Footer";
 
 
 function Article() {
+    useEffect(() => {
+        window.scrollTo({top: 0})
+      }, []);
     return (
         <>
             <Nav posi="fixed" />

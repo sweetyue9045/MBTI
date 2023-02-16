@@ -1,4 +1,5 @@
 import "../style/Home.css";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import BANNER from "../assets/images/home_cover.png";
 import Nav from "../components/Nav";
@@ -10,6 +11,9 @@ import Footer from "../components/Footer";
 // export const ScrollY = createContext();
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo({top: 0})
+      }, []);
     return (
         <>
             <Nav posi="absolute" />
