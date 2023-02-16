@@ -18,7 +18,7 @@ export default function Nav({ posi }) {
                         <div className="menu_btn">世界觀</div>
                     </Link></li>
                     <li><Link to="/article" className="menu_link">
-                        <div className="menu_btn">文章分析</div>
+                        <div className="menu_btn">文章解析</div>
                     </Link></li>
                     <li><Link to="/team" className="menu_link">
                         <div className="menu_btn">團隊介紹</div>

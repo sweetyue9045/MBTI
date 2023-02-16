@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 10px;
 }
 
 .Banner .item {
@@ -33,15 +34,15 @@
     background-image: url(../assets/images/Frame.png);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: -10px;
 
 }
 
 .Banner .content {
-    font-weight: bold;
-    -webkit-text-stroke: 0.05px #000;
+    /* -webkit-text-stroke: 0.05px #000; */
     letter-spacing: 2px;
     font-size: var(--fz36);
-    margin-left: 10px;
+    font-family: 'ヒラギノ角ゴ ProN W8';
 }
 
 .Banner .button {
@@ -50,14 +51,13 @@
 }
 
 .Banner .b_text {
-    margin-left: 10px;
     padding: 5px 12px;
-    font-weight: bold;
-    -webkit-text-stroke: 1px #000;
+    /* -webkit-text-stroke: 1px #000; */
     letter-spacing: 2px;
     width: 13vw;
     border: 6px solid #000;
     font-size: var(--fz36);
+    font-family: 'ヒラギノ角ゴ ProN W8';
 }
 
 .Banner .b_text:hover {

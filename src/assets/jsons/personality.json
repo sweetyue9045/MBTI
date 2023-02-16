@@ -7,22 +7,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -55,22 +55,22 @@
     "content": "<div>安靜而有所保留、有想法且善於分析的人格，對事物的運作感到十分好奇，機智聰穎且理性，過於客觀使他們不擅長表達情感，喜歡與他人完全平等。</div><div>有一套自己原則，並且以此組織對外界事物的理解，能夠簡單清楚的闡述複雜事物。</div><div>過於專注使他們看起來冷淡，平時隨和但面對不合理的事或被否認時，反應有時會過於激烈。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -103,22 +103,22 @@
     "content": "<div>強大和理性的化身，總是迅速解決不合邏輯和低效率的問題，並且建立組織與架構。外向健談的他們，不僅樂於分享知識，也非常具有領袖魅力。</div><div>行動力極高，且有條理的規劃計畫，總是非常堅定的往前，也勇於挑戰不同的目標直到成功。</div><div>強大的企圖心使他們看起來極度強勢，有時導致對自己和他人的標準過高。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -151,22 +151,22 @@
     "content": "<div>運用豐富的想像力和靈活的思考，提出別於常人的想法。不喜歡被框架限制，總是我行我素，他們的樂觀和幽默感也讓他們擁有許多朋友。</div><div>思路敏捷、善於分析且求知慾強的他們，總是能找到有趣且多變的解決方案。</div><div>太勇於表達自己的看法，經常導致不顧及他人感受，他們知道會使人不快，但他們一定要講出來。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -202,22 +202,22 @@
     "content": "<div>有責任心並受價值觀驅使的人格。擅用直覺理解複雜問題，較有遠見且理想化。敏感且有同情心跟同理心，會分享自己的遠見去領導他人，使人幸福。</div><div>很有奉獻精神，喜歡在幕後施展影響力。忠於能體現自己價值觀的事物，對不同者則沒興趣。</div><div>內心豐富容易胡思亂想，很在意他人對自己的想法，給自己壓力過大，且很執拗導致倉促下判斷。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "内向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -249,22 +249,22 @@
     "content": "<div>溫柔且貼心，對於自己重視的人事物和價值觀非常一絲不苟，不斷追求新的事物去驗證自己的信念，對改變很有適應力。隨和的天性讓他們通情達理。</div><div>很有創意性的人格，用創作來表達自己交流的慾望，並通過機智與策略，改變他人的觀點。</div><div>容易活在自己的世界，忽視現實。儘管內心想法很多，但不太主動發言，他人較難以理解其想法。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "内向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -296,22 +296,22 @@
     "content": "<div>社交活躍朋友很多的人格，外向健談外高度的同理心使他們樂於照顧他人，可以凝聚來自各處的人，作為鼓舞人心的領袖，也可以是忠誠的追隨者。</div><div>打動人心的話語，積極且盡責，能夠看到人們的需求，並運用自身能力幫助別人，善於合作的人格。</div><div>過度在意他人需求，忽視自己。難以接受批評無論好壞，可能因此表現的慌亂、暴躁。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -343,22 +343,22 @@
   "content": "<div>社交活躍朋友很多的人格，外向健談外高度的同理心使他們樂於照顧他人，可以凝聚來自各處的人，作為鼓舞人心的領袖，也可以是忠誠的追隨者。</div><div>打動人心的話語，積極且盡責，能夠看到人們的需求，並運用自身能力幫助別人，善於合作的人格。</div><div>過度在意他人需求，忽視自己。難以接受批評無論好壞，可能因此表現的慌亂、暴躁。</div>",
   "LetterMeans": [
     {
-      "ImageUrl": "/images/Extroversion",
+      "ImageUrl": "Extroversion",
       "chinese": "外向型",
       "english": "Extroversion"
     },
     {
-      "ImageUrl": "/images/Intuition",
+      "ImageUrl": "Intuition",
       "chinese": "直覺型",
       "english": "Intuition"
     },
     {
-      "ImageUrl": "/images/Feeling",
+      "ImageUrl": "Feeling",
       "chinese": "感覺型",
       "english": "Feeling"
     },
     {
-      "ImageUrl": "/images/Perceiving",
+      "ImageUrl": "Perceiving",
       "chinese": "知覺型",
       "english": "Perceiving"
     }
@@ -389,22 +389,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Intuition",
+        "ImageUrl": "Intuition",
         "chinese": "直覺型",
         "english": "Intuition"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -440,22 +440,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -487,22 +487,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -534,22 +534,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -581,22 +581,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Judging",
+        "ImageUrl": "Judging",
         "chinese": "判斷型",
         "english": "Judging"
       }
@@ -631,22 +631,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -678,22 +678,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Introversion",
+        "ImageUrl": "Introversion",
         "chinese": "內向型",
         "english": "Introversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -725,22 +725,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Thinking",
+        "ImageUrl": "Thinking",
         "chinese": "思考型",
         "english": "Thinking"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }
@@ -772,22 +772,22 @@
     "content": "<div>性格謹慎、喜歡邏輯推理及分析複雜的問題，比其它類型更不喜歡社交，難以容忍強烈且戲劇性的情感問題。</div><div>總會以新的角度或新的方法來看待事情。熱衷於獲得新的認知，具有洞察力且思考敏捷。</div><div>無論其他人如何看待他們，他們堅信自己的想法，被人為是16個人格裡最獨立的人格。</div>",
     "LetterMeans": [
       {
-        "ImageUrl": "/images/Extroversion",
+        "ImageUrl": "Extroversion",
         "chinese": "外向型",
         "english": "Extroversion"
       },
       {
-        "ImageUrl": "/images/Sensing",
+        "ImageUrl": "Sensing",
         "chinese": "實感型",
         "english": "Sensing"
       },
       {
-        "ImageUrl": "/images/Feeling",
+        "ImageUrl": "Feeling",
         "chinese": "感覺型",
         "english": "Feeling"
       },
       {
-        "ImageUrl": "/images/Perceiving",
+        "ImageUrl": "Perceiving",
         "chinese": "知覺型",
         "english": "Perceiving"
       }

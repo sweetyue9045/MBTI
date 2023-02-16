@@ -1,0 +1,12 @@
+.personality-container .Banner img {
+    right: 10vw;
+}
+
+.Banner .typeLetter{
+    font-weight: bold;
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    letter-spacing: 2px;
+    width: 13vw;
+    border: 6px solid #000;
+    font-size: var(--fz60);
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Hiragino Kaku Gothic Std';
+    src: local('Hiragino Kaku Gothic Std') url('./fonts/Hiragino\ Sans\ CNS\ W3.otf') format('opentype')
+  }
+  @font-face {
+    font-family: 'Hiragino Kaku Gothic ';
+    src: url('./fonts/Hiragino\ Sans\ CNS\ W3.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W0';
+    src: url('./fonts/ヒラギノ角ゴシック\ W0.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W1';
+    src: url('./fonts/ヒラギノ角ゴシック\ W1.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W2';
+    src: url('./fonts/ヒラギノ角ゴシック\ W2.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    src: url('./fonts/ヒラギノ角ゴシック\ W3.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W4';
+    src: url('./fonts/ヒラギノ角ゴシック\ W4.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W5';
+    src: url('./fonts/ヒラギノ角ゴシック\ W5.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W6';
+    src: url('./fonts/HiraKakuProN-W6.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W7';
+    src: url('./fonts/ヒラギノ角ゴシック\ W7.ttc') format('');
+  }
+  @font-face {
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    src: url('./fonts/HiraKakuStdN-W8.otf') format('opentype');
+  }
+  

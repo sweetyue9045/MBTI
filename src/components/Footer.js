@@ -11,10 +11,10 @@ export default function Footer() {
             <div className="logo">
                 <img src={LOGO} alt="logo.png" />
             </div>
-            <a href="javascript:void(0)" className="f_btn">
+            <a href="javascript:void(0)" className="f_btn f_n_btn">
             <img src={YOUTUBE} alt="youtube.png" />
             </a>
-            <a href="javascript:void(0)" className="f_btn">
+            <a href="javascript:void(0)" className="f_btn f_n_btn">
             <img src={FACEBOOK} alt="facebook.png" />
             </a>
             <a href="https://www.16personalities.com/free-personality-test" className="f_btn">

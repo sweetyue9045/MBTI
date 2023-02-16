@@ -29,3 +29,8 @@ footer .f_btn{
 footer .f_btn img{
     width: 100%;
 }
+
+footer .f_n_btn{
+    pointer-events:none;
+
+}
