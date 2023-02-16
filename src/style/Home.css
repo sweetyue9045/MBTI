@@ -39,10 +39,10 @@
 }
 
 .Banner .content {
-    /* -webkit-text-stroke: 0.05px #000; */
     letter-spacing: 2px;
     font-size: var(--fz36);
     font-family: 'ヒラギノ角ゴ ProN W8';
+    color: #2B2B2B;
 }
 
 .Banner .button {
@@ -52,7 +52,6 @@
 
 .Banner .b_text {
     padding: 5px 12px;
-    /* -webkit-text-stroke: 1px #000; */
     letter-spacing: 2px;
     width: 13vw;
     border: 6px solid #000;
@@ -61,7 +60,6 @@
 }
 
 .Banner .b_text:hover {
-    /* -webkit-text-stroke: 1px #fff; */
     background: #000;
     color: #FFF;
     transition: 0.3s;
