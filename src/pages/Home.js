@@ -11,6 +11,9 @@ import Footer from "../components/Footer";
 // export const ScrollY = createContext();
 
 function Home() {
+    window.onunload = function () {
+        window.scrollTo(0, 0);
+      }
     useEffect(() => {
         window.scrollTo({top: 0})
       }, []);
