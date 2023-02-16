@@ -5,6 +5,7 @@ import Personality from './pages/Personality';
 import World from './pages/World';
 import Article from './pages/Article';
 import Team from './pages/Team';
+import ScrollToTop from "./pages/ScrollToTop";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,10 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
+    <>
+    <ScrollToTop />
     <RouterProvider router={router} />
+    </>
   )
 }
 
