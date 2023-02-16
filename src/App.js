@@ -32,10 +32,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <>
-    <ScrollToTop />
     <RouterProvider router={router} />
-    </>
   )
 }
 
