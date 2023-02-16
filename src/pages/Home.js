@@ -1,4 +1,6 @@
 import "../style/Home.css";
+import { useEffect } from "react";
+
 import { Link } from "react-router-dom";
 import BANNER from "../assets/images/home_cover.png";
 import Nav from "../components/Nav";
@@ -8,8 +10,10 @@ import Footer from "../components/Footer";
 // import { useState, useEffect, createContext } from "react";
 
 // export const ScrollY = createContext();
-
-function Home() {
+const Home = () => {
+    useEffect(() => {
+        document.body.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <Nav posi="absolute" />
@@ -18,7 +22,7 @@ function Home() {
                     <div className="intro">
                         <div className="item typo"></div>
                         <div className="item content">
-                            透過MBTI來認識<br/>誕生於宇宙中<br/>獨一無二的自己
+                            透過MBTI來認識<br />誕生於宇宙中<br />獨一無二的自己
                         </div>
                         <div className="item button">
                             <Link to={"/world"} className="b_text">
@@ -30,9 +34,9 @@ function Home() {
                     <img src={BANNER} alt="cover.png" />
                 </div>
                 <div className="home-content">
-                    {homeData.map((item) => {
-                        return <Section item={item}></Section>;
-                    })}
+                    {homeData.map((item) => (
+                        <Section item={item}></Section>
+                    ))}
                 </div>
             </div>
             <Footer />

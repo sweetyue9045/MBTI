@@ -1,11 +1,11 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Personality from './pages/Personality';
 import World from './pages/World';
 import Article from './pages/Article';
 import Team from './pages/Team';
-import ScrollToTop from "./pages/ScrollToTop";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +31,11 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
+
   return (
-    <RouterProvider router={router} />
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 }
 

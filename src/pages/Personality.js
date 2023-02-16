@@ -1,11 +1,15 @@
 import "../style/Personality.css";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import typeData from "../assets/jsons/personality.json";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 
-function Personality() {
+const Personality = () => {
+    useEffect(() => {
+        document.body.scrollTo(0, 0);
+    }, []);
     const { typeId } = useParams()
     const Personality = typeData.find(
         (x) => x.typeLetter == typeId
