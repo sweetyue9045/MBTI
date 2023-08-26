@@ -179,7 +179,7 @@
         margin: 50px 0;
     }
     .section-container:not(:last-child) .section-line {
-        margin: 50px 0px;
+        margin: 50px 0px 100px;
     }
 }
 
@@ -241,7 +241,7 @@
         margin: 50px 0;
     }
     .section-container:not(:last-child) .section-line {
-        margin: 50px 0px;
+        margin: 20px 0px 50px;
     }
     .section-each-label {
     font-size: 30px;
