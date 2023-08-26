@@ -15,7 +15,7 @@ const Home = () => {
         document.body.scrollTo(0, 0);
     }, []);
     var cover = "cover1";
-    if (document.body.clientWidth >= 834) {
+    if (document.body.clientWidth >= 430) {
         cover = "cover1"
     }
     else {

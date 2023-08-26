@@ -11,7 +11,7 @@ export default function Nav({ posi }) {
 		event.preventDefault();
 	};
     var logo = "logo1";
-    if (document.body.clientWidth >= 430) {
+    if (document.body.clientWidth > 430) {
         logo = "logo1"
     }
     else {
