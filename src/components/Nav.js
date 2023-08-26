@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import LOGO from "../assets/images/nav_logo.png";
 
 export default function Nav({ posi }) {
+    const ClickHandler = (event) => {
+		event.preventDefault();
+	};
     return (
         <nav style={{ position: posi }}>
             <div className="nav-container">
@@ -15,10 +18,10 @@ export default function Nav({ posi }) {
                     <li><Link to="/world" className="menu_link">
                         <div className="menu_btn">世界觀</div>
                     </Link></li>
-                    <li><Link to="/article" className="menu_link">
+                    <li><Link to="/article" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
                         <div className="menu_btn">文章解析</div>
                     </Link></li>
-                    <li><Link to="/team" className="menu_link">
+                    <li><Link to="/team" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
                         <div className="menu_btn">團隊介紹</div>
                     </Link></li>
                 </ul>

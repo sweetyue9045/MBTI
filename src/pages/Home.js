@@ -3,22 +3,35 @@ import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import BANNER from "../assets/images/home_cover.png";
+import BANNER2 from "../assets/images/home_cover2.png";
 import Nav from "../components/Nav";
 import homeData from "../assets/jsons/home.json";
 import Section from "../components/H_section";
 import Footer from "../components/Footer";
-// import { useState, useEffect, createContext } from "react";
 
 // export const ScrollY = createContext();
 const Home = () => {
     useEffect(() => {
         document.body.scrollTo(0, 0);
     }, []);
+    var cover = "cover1";
+    if (document.body.clientWidth >= 834) {
+        cover = "cover1"
+        console.log(cover)
+    }
+    else {
+        cover = "cover2"
+        console.log(cover)
+
+    }
+
     return (
         <>
             <Nav posi="absolute" />
             <div className="home-container">
                 <div className="Banner">
+                    <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />
+                    <img src={BANNER2} alt="cover.png" style={{ display: cover == "cover2" ? "block" : "none" }} />
                     <div className="intro">
                         <div className="item typo"></div>
                         <div className="item content">
@@ -31,8 +44,7 @@ const Home = () => {
                         </div>
 
                     </div>
-                    <img src={BANNER} alt="cover.png" />
-                </div>
+                   </div>
                 <div className="home-content">
                     {homeData.map((item) => (
                         <Section item={item}></Section>

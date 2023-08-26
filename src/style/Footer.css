@@ -34,3 +34,20 @@ footer .f_n_btn{
     pointer-events:none;
 
 }
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+    footer {
+        height: 15vw;
+        padding: 0 40px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    footer .logo {
+        height: 3vw;
+        width: auto;
+    }
+    footer .f_btn{
+        width: 3vw;
+        margin-left: 10px;
+    }
+}

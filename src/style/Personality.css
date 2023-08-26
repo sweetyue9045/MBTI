@@ -37,13 +37,13 @@
     position: relative;
     letter-spacing: 2px;
 }
-.section-title{
+.personality-container .section-title{
     font-family: 'ヒラギノ角ゴ ProN W8';
     letter-spacing: 2px;
     font-size: var(--fz45);
     margin: 70px 0 50px;
 }
-.section-content{
+.personality-container .section-content{
     width: 100%;
     display: flex;
     justify-content:space-around;

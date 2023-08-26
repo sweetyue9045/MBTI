@@ -75,10 +75,20 @@ li {
     list-style: none;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 834px) {
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
     :root {
-        --fz30: 20px;
-        --fz28: 16px;
-        --fz24: 14px;
+        --fz36: 25px;
+        --fz26: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+    :root {
+        --fz60: 40px;
+        --fz36: 23px;
+        --fz30: 15px;
+        /* --fz28: 16px;
+        --fz24: 14px; */
     }
 }

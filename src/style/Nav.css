@@ -26,15 +26,35 @@ nav .logo {
     display: flex;
 }
 
+.menu li {
+    margin: 0 40px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
 .menu_link {
     text-align: center;
     color: black;
 }
 
 .menu_btn {
-    margin-left: 80px;
     font-weight: bold;
     font-size: var(--fz26);
     letter-spacing: 2px;
     margin-right: -3px;
+}
+
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+    nav {
+        height: 8.5vw;
+    }
+    .menu li {
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+
 }

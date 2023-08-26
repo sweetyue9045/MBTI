@@ -10,7 +10,6 @@
     position: absolute;
     height: 60vw;
     right: 0;
-
 }
 
 .Banner .intro {
@@ -65,21 +64,6 @@
     transition: 0.3s;
 }
 
-/* @media (max-width: 700px) {
-    .Banner{
-       
-        justify-content: center;
-    }
-    .intro{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-       
-        justify-content:center;
-    }
-} */
-
 .home-content {
     max-width: 1776px;
     margin: 140px 80px 0 80px;
@@ -103,7 +87,7 @@
 }
 
 .section-maintype {
-    font-size: 60px;
+    font-size: var(--fz60);
     color: #000000;
     line-height: 68px;
     font-family: 'ヒラギノ角ゴ ProN W8';
@@ -129,7 +113,9 @@
     margin-top: 50px;
     justify-content: center;
 }
-
+.section-feature-list a {
+    width: 25%;
+}
 .section-each-type {
     display: flex;
     flex-direction: column;
@@ -170,4 +156,94 @@
     width: 95%;
     margin: 100px 0px;
     background: #000;
+}
+
+
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+    .Banner .typo {
+        width: 320px;
+        height: 57.5px;
+    }
+    .Banner .b_text {
+        border: 4px #000 solid;
+    }
+    .section-feature-list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .section-feature-list a {
+        width: 50%;
+    }
+    .section-each-type {
+        margin: 50px 0;
+    }
+    .section-container:not(:last-child) .section-line {
+        margin: 50px 0px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+    .Banner {
+        height: 165vw;
+    }
+    .Banner img {
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        right: 0;
+        top: 0;
+    }
+    .Banner .intro {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        top: 50vw;
+    }
+    .Banner .typo {
+        width: 320px;
+        height: 57.5px;
+        margin-left: 0;
+    }
+    .Banner .b_text {
+        border: 4px #000 solid;
+    }
+    .home-content{
+        margin: 70px 60px 0 40px;;
+    }
+    .section-title{
+        flex-direction: column ;
+        align-items: center;
+        margin: 20px 0 30px;
+    }
+
+    .section-english {
+        margin-left: 0px;
+    }
+    .section-feature {
+        margin-top: 10px;
+        margin-left: 0px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .section-feature-list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .section-feature-list a {
+        width: 100%;
+    }
+    .section-each-type {
+        margin: 50px 0;
+    }
+    .section-container:not(:last-child) .section-line {
+        margin: 50px 0px;
+    }
+    .section-each-label {
+    font-size: 30px;
+    }
 }
