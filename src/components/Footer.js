@@ -1,6 +1,6 @@
 import "../style/Footer.css";
 
-import LOGO from "../assets/images/footerImg.png";
+import LOGO from "../assets/images/footer.png";
 import YOUTUBE from "../assets/images/youtube.png";
 import FACEBOOK from "../assets/images/fb.png";
 import MBTI from "../assets/images/mbti.png";

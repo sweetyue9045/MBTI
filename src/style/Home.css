@@ -30,7 +30,7 @@
 .Banner .typo {
     width: 460px;
     height: 85px;
-    background-image: url(../assets/images/Frame.png);
+    background-image: url(../assets/images/frame.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: -10px;
@@ -185,7 +185,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 430px) {
     .Banner {
-        height: 165vw;
+        height: 180vw;
     }
     .Banner img {
         position: absolute;
@@ -201,7 +201,7 @@
         text-align: center;
         padding: 0;
         margin: 0;
-        top: 50vw;
+        top: 55vw;
     }
     .Banner .typo {
         width: 320px;

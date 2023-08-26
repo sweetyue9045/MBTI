@@ -17,12 +17,9 @@ const Home = () => {
     var cover = "cover1";
     if (document.body.clientWidth >= 834) {
         cover = "cover1"
-        console.log(cover)
     }
     else {
         cover = "cover2"
-        console.log(cover)
-
     }
 
     return (
