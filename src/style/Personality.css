@@ -29,7 +29,7 @@
     width: 40vw;
 }
 .personality-container .Banner img {
-    right: 10vw;
+    right: 100px;
 }
 .personality-content{
     max-width: 1776px;
@@ -80,7 +80,115 @@
     font-size: var(--fz36);
 }
 .cognition-text{
-    margin: 25px 0 35px 2px;
+    margin: 35px 0 45px 2px;
     letter-spacing: 1px;
     font-size: var(--fz24);
+}
+
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+    .personality-container .Banner{
+        height: 110vw;
+    }
+    .personality-container .Banner img {
+        right: 50%;
+        top:-10%;
+        transform: translateX(50%);
+    }
+    .personality-container .Banner .intro{
+        position: absolute;
+        top: 60vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .personality-container .Banner .title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Banner .typeChinese{
+        margin: 30px 0 10px;
+    }
+    .Banner .subTitle,.cognition-title-text{
+        font-size: 32px;
+    }
+    .personality-container .Banner .content{
+        width: 73.4vw;
+    }
+    .personality-container .section-title{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+
+    .personality-container .Banner{
+        height: 255vw;
+    }
+    .personality-container .Banner img {
+        width: 310px;
+        right: 50%;
+        top:-10%;
+        transform: translateX(50%);
+    }
+    .personality-container .Banner .intro{
+        position: absolute;
+        top: 110vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .personality-container .Banner .title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Banner .typeChinese{
+        margin: 30px 0 10px;
+        font-size: 20px;
+    }
+    .Banner .subTitle{
+        font-size: 25px;
+        word-break: keep-all;
+    }
+    .personality-container .Banner .content{
+        width: 73.4vw;
+        text-align: left;
+        padding-bottom: 60px;
+        margin-bottom: 60px;
+        border-bottom: 3px #000 solid;
+    }
+    .personality-container .section-title{
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    .personality-content{
+        margin: 140px 60px 0;
+    }
+    .personality-container .section-content{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .lettermeans-cont{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .list-style{
+        width: 20px;
+        height: 20px;
+    }
+    .cognition-title-text {
+        font-size: 20px;
+        margin-left: 15px;
+        white-space:nowrap;
+    }
+    .cognition-text{
+        font-size: 18px;
+    }
 }
