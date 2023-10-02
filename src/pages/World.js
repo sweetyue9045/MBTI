@@ -12,10 +12,10 @@ const World = () => {
     // const [offsetY, setOffsetY] = useState(0);
     const scrolltop = () => {
         h_top = [
-            document.getElementById("target0").offsetTop + 300,
-            document.getElementById("target1").offsetTop + 300,
-            document.getElementById("target2").offsetTop + 300,
-            document.getElementById("target3").offsetTop + 300,
+            document.getElementById("target0").offsetTop,
+            document.getElementById("target1").offsetTop,
+            document.getElementById("target2").offsetTop,
+            document.getElementById("target3").offsetTop,
         ];
     }
     useEffect(() => {
@@ -43,25 +43,25 @@ const World = () => {
     };
     const handleScroll = event => {
         const offsetY = document.documentElement.scrollTop + document.body.scrollTop
-        if (offsetY >= h_top[3] - 300 && offsetY <= h_top[3] + 10) {
+        if (offsetY >= h_top[3] - 300) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn3").classList.add("bottom_line")
         }
-        else if (offsetY >= h_top[2] - 300 && offsetY <= h_top[2] + 10) {
+        else if (offsetY >= h_top[2] - 300 && offsetY <= h_top[3] + 100) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn2").classList.add("bottom_line")
         }
-        else if (offsetY >= h_top[1] - 300 && offsetY <= h_top[1] + 10) {
+        else if (offsetY >= h_top[1] - 300 && offsetY <= h_top[2] + 100 ) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn1").classList.add("bottom_line")
         }
-        else if (offsetY >= h_top[0] - 300 && offsetY <= h_top[0] + 10) {
+        else if (offsetY >= h_top[0] - 300 && offsetY <= h_top[1] + 100 ) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
