@@ -1,0 +1,124 @@
+.world-container {
+    display: flex;
+}
+
+.tab-bar {
+    width: 20vw;
+    padding-left: 80px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 100px;
+    margin-top: 60px;
+}
+
+.progress-btn {
+    margin: 30px;
+    font-size: var(--fz26);
+    font-family: 'ヒラギノ角ゴ ProN W8';
+    width: fit-content;
+    cursor: pointer;
+}
+
+.bottom_line {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.main-content {
+    width: 80vw;
+    border-left: 2px #000 dashed;
+}
+
+.text-content {
+    max-width: 1124px;
+    margin: 0px 150px;
+    padding: 100px 0;
+}
+
+.text-content:not(:last-child) {
+    border-bottom: 1px solid #000;
+}
+
+.text-content img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content-title {
+    font-family: ヒラギノ角ゴ ProN W8;
+}
+
+.content-cont {
+    font-size: var(--fz24);
+    margin-top: 30px;
+}
+
+.content-cont a {
+    border-bottom: 2.5px solid #000;
+}
+
+.fourDimension-cont {
+    margin-top: 50px;
+}
+
+.fourDimension-cont:not(:last-child) {
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+
+}
+
+.fourDimension-title,
+.fourDimension-content {
+    margin-top: 30px;
+}
+
+.list-style {
+    margin: 0 4px 0 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #2A2A2A;
+}
+
+.fourDimension-title {
+    font-size: var(--fz24);
+    display: flex;
+    align-items: center;
+}
+
+.fourDimension-title-text {
+    font-family: ヒラギノ角ゴ ProN W8;
+}
+
+.fourDimension-content,
+.fourDimension-twoSide-cont {
+    font-size: var(--fz24);
+}
+
+.fourDimension-twoSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fourDimension-twoSide:nth-child(2n) {
+    margin-top: 50px;
+
+}
+
+.fourDimension-twoSide img {
+    width: 15%;
+    height: auto;
+    margin-top: 0;
+}
+
+.fourDimension-twoSide-cont {
+    margin-left: 45px;
+}
+
+.fourDimension-twoSide-text {
+    margin-top: 15px;
+}

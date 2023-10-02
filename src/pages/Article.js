@@ -29,6 +29,7 @@ const Article = () => {
                     <img src={BANNER} alt="cover.png" />
                 </div>
                 <div className="article-content">
+                    Coming soon...
                 </div>
             </div>
             <Footer />

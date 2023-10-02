@@ -247,3 +247,9 @@
     font-size: 30px;
     }
 }
+@media only screen and (min-width: 1777px) {
+    .home-content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
