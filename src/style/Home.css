@@ -183,6 +183,12 @@
     }
 }
 
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+    .Banner .intro {
+        margin-top: 60px;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 430px) {
     .Banner {
         height: 180vw;
