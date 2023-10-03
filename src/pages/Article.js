@@ -12,13 +12,7 @@ const Article = () => {
     useEffect(() => {
         document.body.scrollTo(0, 0);
     }, []);
-    var cover = "cover1";
-    if (document.body.clientWidth > 430) {
-        cover = "cover1"
-    }
-    else {
-        cover = "cover2"
-    }
+    const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
     return (
         <>
             <Nav posi="fixed" />

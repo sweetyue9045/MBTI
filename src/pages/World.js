@@ -10,7 +10,6 @@ import fourDimensionData from "../assets/jsons/world.json";
 
 var h_top = [];
 const World = () => {
-    // const [offsetY, setOffsetY] = useState(0);
     const scrolltop = () => {
         h_top = [
             document.getElementById("target0").offsetTop,
@@ -21,8 +20,7 @@ const World = () => {
     }
     useEffect(() => {
         document.body.scrollTo(0, 0);
-        if(document.body.clientWidth > 0) scrolltop();
-        console.log(document.getElementById("cont").offsetTop,h_top)
+        scrolltop();
     }, []);
 
     const scrollToElement = (buttonId, targetId) => {
@@ -32,7 +30,6 @@ const World = () => {
         if (button && target) {
             button.addEventListener('click', () => {
                 const targetOffsetTop = target.offsetTop;
-                console.log(targetOffsetTop)
                 if (buttonId == "upbtn") {
                     document.body.scroll({
                         top: targetOffsetTop,
@@ -40,14 +37,9 @@ const World = () => {
                     });
                 }
                 else {
-                    if (document.body.clientWidth > 430) {
-                        document.body.scroll({
-                            top: targetOffsetTop + 100,
-                            behavior: 'smooth'
-                        });
-                    }
-                    else document.body.scroll({
-                        top: targetOffsetTop + 150,
+                    const h_top = document.body.clientWidth > 430 ? 100 : 150
+                    document.body.scroll({
+                        top: targetOffsetTop + h_top,
                         behavior: 'smooth'
                     });
                 }
@@ -56,13 +48,14 @@ const World = () => {
     };
     const handleScroll = () => {
         const offsetY = document.documentElement.scrollTop + document.body.scrollTop
-        if (offsetY >= h_top[3] - 300) {
+        const h_top03 = document.body.clientWidth > 430 ? 300 : 1200
+        if (offsetY >= h_top[3] + h_top03) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn3").classList.add("bottom_line")
         }
-        else if (offsetY >= h_top[2] - 300 && offsetY <= h_top[3] + 100) {
+        else if (offsetY >= h_top[2] - 300 && offsetY <= h_top[3] + h_top03) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
@@ -89,14 +82,7 @@ const World = () => {
         };
     }, []);
 
-    var cover = "cover1";
-
-    if (document.body.clientWidth > 430) {
-        cover = "cover1"
-    }
-    else {
-        cover = "cover2"
-    }
+    const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
 
     return (
         <>
