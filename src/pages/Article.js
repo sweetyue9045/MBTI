@@ -15,7 +15,7 @@ const Article = () => {
     const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
     return (
         <>
-            <Nav posi="fixed" />
+            <Nav posi="absolute" />
             <div className="article-container">
                 <div className="Banner">
                     <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />

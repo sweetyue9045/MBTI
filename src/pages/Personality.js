@@ -16,7 +16,7 @@ const Personality = () => {
     );
     return (
         <>
-            <Nav posi="fixed" />
+            <Nav posi="absolute"/>
             <div className="personality-container">
                 <div className="Banner">
                     <div className="intro">

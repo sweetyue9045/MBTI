@@ -6,7 +6,7 @@ import HAM_OPEN from "../assets/images/ham_open.png";
 import HAM_CLOSE from "../assets/images/ham_close.png";
 
 
-export default function Nav({ posi }) {
+export default function Nav({ posi ,bgcolor }) {
     const ClickHandler = (event) => {
 		event.preventDefault();
 	};
@@ -53,7 +53,7 @@ export default function Nav({ posi }) {
         nav.style.backgroundColor="transparent";
     }
     return (
-        <nav id="nav" style={{ position: posi}}>
+        <nav id="nav" style={{ position: posi, backgroundColor: bgcolor}}>
             <div id="nav-container" className="nav-container" style={{  display: logo == "logo1" ? "flex":"none"}}>
                 <Link to="/">
                     <div className="logo">
