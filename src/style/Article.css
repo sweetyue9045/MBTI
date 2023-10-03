@@ -2,23 +2,33 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.article-container .Banner .title{
+
+.article-container .Banner .title {
     font-family: 'ヒラギノ角ゴ ProN W8';
     letter-spacing: 4px;
     font-size: var(--fz90);
 }
-.article-container .Banner .btn{
+
+.article-container .Banner .btn {
     height: 50px;
     width: 50px;
 }
-.article-container .Banner .btn img{
+
+.article-container .Banner .btn img {
     height: 100%;
     width: 100%;
 }
-.article-content{
+
+.article-content {
     margin-top: 90px;
     font-family: 'ヒラギノ角ゴ ProN W8';
     letter-spacing: 4px;
     font-size: var(--fz36);
     text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+    .article-content {
+        margin-top: 40px;
+    }
 }

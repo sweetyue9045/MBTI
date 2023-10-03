@@ -45,6 +45,7 @@ nav .logo {
     font-size: var(--fz26);
     letter-spacing: 2px;
     margin-right: -3px;
+    padding: 0 10px
 }
 
 .hambtn{
@@ -107,5 +108,8 @@ nav .logo {
         width: auto;
         height: 8vw;
         margin: 15px;
+    }
+    .menu_btn {
+        padding: 0;
     }
 }

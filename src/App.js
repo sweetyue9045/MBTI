@@ -1,11 +1,10 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Personality from './pages/Personality';
 import World from './pages/World';
 import Article from './pages/Article';
-import Team from './pages/Team';
+import Membership from './pages/Membership';
 
 const router = createBrowserRouter([
   {
@@ -25,8 +24,8 @@ const router = createBrowserRouter([
     element: <Article/>
   },
   {
-    path: '/team',
-    element: <Team/>
+    path: '/membership',
+    element: <Membership/>
   }
 ])
 

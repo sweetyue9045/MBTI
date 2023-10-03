@@ -68,8 +68,8 @@ export default function Nav({ posi }) {
                     <li><Link to="/article" className="menu_link">
                         <div className="menu_btn">文章解析</div>
                     </Link></li>
-                    <li><Link to="/team" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
-                        <div className="menu_btn">團隊介紹</div>
+                    <li><Link to="/membership" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
+                        <div className="menu_btn" style={{border:"#777 solid"}}>註冊</div>
                     </Link></li>
                 </ul>
             </div>

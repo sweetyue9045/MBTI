@@ -26,8 +26,8 @@ const Article = () => {
                         <div className="item content">
                             透過各路心理學大師<br />解析不一樣的自己
                         </div>
-                        <div className="item btn">
-                            <img src={Btn} alt=""  style={{ display: cover == "cover1" ? "block" : "none" }}/>
+                        <div className="item btn"  style={{ display: cover == "cover1" ? "block" : "none" }}>
+                            <img src={Btn} alt=""/>
                         </div>
                     </div>
                 </div>
