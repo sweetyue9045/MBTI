@@ -21,7 +21,8 @@ const World = () => {
     }
     useEffect(() => {
         document.body.scrollTo(0, 0);
-        scrolltop();
+        if(document.body.clientWidth > 0) scrolltop();
+        console.log(document.getElementById("cont").offsetTop,h_top)
     }, []);
 
     const scrollToElement = (buttonId, targetId) => {
@@ -31,26 +32,29 @@ const World = () => {
         if (button && target) {
             button.addEventListener('click', () => {
                 const targetOffsetTop = target.offsetTop;
-                if(targetOffsetTop==0){
-                    const scrollOptions = {
+                console.log(targetOffsetTop)
+                if (buttonId == "upbtn") {
+                    document.body.scroll({
                         top: targetOffsetTop,
                         behavior: 'smooth'
-                    };
-                    document.body.scroll(scrollOptions);
+                    });
                 }
-                else{
-                    const scrollOptions = {
-                        top: targetOffsetTop + 100,
+                else {
+                    if (document.body.clientWidth > 430) {
+                        document.body.scroll({
+                            top: targetOffsetTop + 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                    else document.body.scroll({
+                        top: targetOffsetTop + 150,
                         behavior: 'smooth'
-                    };
-                    document.body.scroll(scrollOptions);
+                    });
                 }
-                
-                console.log(targetOffsetTop)
             });
         }
     };
-    const handleScroll = event => {
+    const handleScroll = () => {
         const offsetY = document.documentElement.scrollTop + document.body.scrollTop
         if (offsetY >= h_top[3] - 300) {
             for (var i = 0; i <= 3; i++) {
@@ -89,12 +93,9 @@ const World = () => {
 
     if (document.body.clientWidth > 430) {
         cover = "cover1"
-        console.log(cover)
     }
     else {
         cover = "cover2"
-        console.log(cover)
-
     }
 
     return (
@@ -109,7 +110,7 @@ const World = () => {
                         <a id="btn3" className="progress-btn" onClick={() => scrollToElement("btn3", "target3")}>認知功能介紹</a>
                     </div>
                 </div>
-                <div className="main-content">
+                <div className="main-content" id="cont">
                     <div id="target0" className="text-content">
                         <ContentTitle item="世界觀介紹" fz={cover == "cover1" ? "36px" : "23px"} />
                         <img src={WV_img1} alt="WV_img1.png" />
@@ -125,24 +126,24 @@ const World = () => {
                         <img src={WV_img2} alt="WV_img2.png" />
                     </div>
                     <div id="target1" className="text-content">
-                        <ContentTitle item="MBTI是什麼" fz={cover == "cover1" ? "36px" : "23px"}/>
+                        <ContentTitle item="MBTI是什麼" fz={cover == "cover1" ? "36px" : "23px"} />
                         <div className="content-cont">
                             MBTI 中文全名為邁爾斯-布里格斯性格分類指標（Myers-Briggs Type Indicator），是一種人格類型學的分類模式，為美國作家Katharine Cook Briggs 和女兒 Isabel Briggs Myers 因對心理學的愛好，以心理學家榮格在 1921 年的《心理類型》為基礎，深入研究後提出。
                         </div>
                         <div className="content-cont">
                             自1998年之後的版本學界普遍認為MBTI具備一定的信度與效度。在逐漸被心理學界認可後，運用在職場、教育等領域的人員評估。
                         </div>
-                        <ContentTitle item="理論基礎" fz={cover == "cover1" ? "30px" : "22px"} mt="50px"/>
+                        <ContentTitle item="理論基礎" fz={cover == "cover1" ? "30px" : "22px"} mt="50px" />
                         <div className="content-cont">
                             性格分類源自卡爾·榮格的主觀觀察，而非控制實驗。榮格認為人的意識具有四種功能，各有兩個極端。兩種非理性功能，為知覺和直覺；兩種理性功能，為思維和情感；意識的四種功能又受到兩種態度，外向性與內向性的影響。MBTI評量就是依此理論為基礎所發展出來的。
                         </div>
-                        <ContentTitle item="MBTI的爆紅" fz={cover == "cover1" ? "30px" : "22px"} mt="50px"/>
+                        <ContentTitle item="MBTI的爆紅" fz={cover == "cover1" ? "30px" : "22px"} mt="50px" />
                         <div className="content-cont">
                             因為MBTI的爆紅，網路上已經有許多免費網站可以測驗，其中最受歡迎的是來自英國的公司 NERIS Analytics Limited 架設的平台：<a href="https://www.16personalities.com/free-personality-test">16Personalities</a>，將人格們賦予角色名稱和各種形象圖，讓使用者們更感覺有趣。
                         </div>
                     </div>
                     <div id="target2" className="text-content">
-                        <ContentTitle item="四大維度介紹" fz={cover == "cover1" ? "36px" : "23px"}/>
+                        <ContentTitle item="四大維度介紹" fz={cover == "cover1" ? "36px" : "23px"} />
                         <img src={WV_img3} alt="WV_img1.png" />
 
                         <div className="content-cont">
@@ -165,14 +166,14 @@ const World = () => {
 
                     </div>
                     <div id="target3" className="text-content">
-                        <ContentTitle item="認知功能介紹" fz={cover == "cover1" ? "36px" : "23px"}/>
+                        <ContentTitle item="認知功能介紹" fz={cover == "cover1" ? "36px" : "23px"} />
                         <div className="content-cont">
                             MBTI 中文全名為邁爾斯-布里格斯性格分類指標（Myers-Briggs Type Indicator），是一種人格類型學的分類模式，為美國作家Katharine Cook Briggs 和女兒 Isabel Briggs Myers 因對心理學的愛好，以心理學家榮格在 1921 年的《心理類型》為基礎，深入研究後提出。
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="upbtn" className="upbtn" onClick={() => scrollToElement("upbtn", "nav" ,"-100")}>
+            <div id="upbtn" className="upbtn" onClick={() => scrollToElement("upbtn", "nav", "-100")}>
                 <img src={Btn} alt="" style={{ display: cover == "cover2" ? "block" : "none" }} />
             </div>
             <Footer />
