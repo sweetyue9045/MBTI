@@ -145,7 +145,7 @@
     .progress-bar {
         width: 100%;
         max-width: 1124px;
-        margin: 0px 150px 0;
+        margin: 0px 150px;
         flex-direction: row;
         justify-content: space-between;
         top: 50px;
@@ -165,7 +165,20 @@
         padding-top: 70px;
     }
 }
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+    .progress-bar {
+        margin: 0px 100px;
+    }
 
+    .progress-btn {
+        font-size: 22px;
+    }
+
+    .text-content {
+        margin: 0 100px;
+    }
+
+}
 @media only screen and (min-width: 0px) and (max-width: 430px) {
     .world-container {
         flex-direction: column;
@@ -239,6 +252,17 @@
         margin-left: 0px;
         margin-top: 25px;
     }
-
+    .upbtn {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        right: 40px;
+        bottom: 40px;
+    }
+    .upbtn img{
+        width: 100%;
+        height: 100%;
+        transform:rotate(180deg)
+    }
 
 }

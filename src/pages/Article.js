@@ -1,6 +1,5 @@
 import "../style/Article.css";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import BANNER from "../assets/images/article_cover.png";
 import BANNER2 from "../assets/images/article_cover2.png";
 import Btn from "../assets/images/downBtn.png";

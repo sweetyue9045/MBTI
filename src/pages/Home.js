@@ -44,7 +44,7 @@ const Home = () => {
                    </div>
                 <div className="home-content">
                     {homeData.map((item) => (
-                        <Section item={item}></Section>
+                        <Section item={item}/>
                     ))}
                 </div>
             </div>
