@@ -74,8 +74,8 @@ export default function Nav({ posi ,bgcolor }) {
                 </ul>
             </div>
             <div className="hambtn" style={{ display: logo == "logo2" ? "block":"none"}}>
-            <img id="ham_open" className="block" src={HAM_OPEN} alt="logo.png" onClick={click_open.bind(this)} />
-            <img id="ham_close" className="none" src={HAM_CLOSE} alt="logo.png" onClick={click_close.bind(this)}/>
+            <img id="ham_open" className="block" src={HAM_OPEN} alt="ham_open.png" onClick={click_open.bind(this)} />
+            <img id="ham_close" className="none" src={HAM_CLOSE} alt="ham_close.png" onClick={click_close.bind(this)}/>
             </div>
         </nav>
     );

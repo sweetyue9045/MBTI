@@ -47,8 +47,8 @@ const World = () => {
         }
     };
     const handleScroll = () => {
-        const offsetY = document.documentElement.scrollTop + document.body.scrollTop
-        const h_top03 = document.body.clientWidth > 430 ? 300 : 1200
+        const offsetY = document.documentElement.scrollTop + document.body.scrollTop;
+        const h_top03 = document.body.clientWidth > 430 ? 300 : 1200;
         if (offsetY >= h_top[3] + h_top03) {
             for (var i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
