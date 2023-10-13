@@ -1,5 +1,7 @@
 import "../style/Nav.css";
 import { NavLink } from "react-router-dom";
+import { disableScroll, enableScroll } from './ScrollUtils';
+
 import LOGO from "../assets/images/nav_logo.png";
 import LOGO2 from "../assets/images/nav_logo2.png";
 import HAM_OPEN from "../assets/images/ham_open.png";
@@ -35,6 +37,7 @@ export default function Nav() {
         nav.style.backgroundColor="#fff";
         nav.style.position = "fixed";
 
+        disableScroll()
     }
 
     var click_close = function (e) {
@@ -54,6 +57,8 @@ export default function Nav() {
         nav.style.height="10vw";
         nav.style.backgroundColor="transparent";
         nav.style.position = "absolute";
+
+        enableScroll()
     }
     return (
         <nav id="nav">
