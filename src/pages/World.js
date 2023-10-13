@@ -24,12 +24,11 @@ const World = () => {
     const scrollToElement = (buttonId, targetId) => {
         const button = document.getElementById(buttonId);
         const target = document.getElementById(targetId);
-
         if (button && target) {
             button.addEventListener('click', () => {
                 const targetOffsetTop = target.offsetTop;
                 if (buttonId == "upbtn") {
-                    window.body.scroll({
+                    window.scroll({
                         top: targetOffsetTop,
                         behavior: 'smooth'
                     });
