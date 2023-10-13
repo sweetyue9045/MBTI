@@ -1,11 +1,10 @@
 import "../style/World.css";
 import { useEffect } from "react";
+
 import WV_img1 from "../assets/images/WV_img1.png";
 import WV_img2 from "../assets/images/WV_img2.png";
 import WV_img3 from "../assets/images/WV_img3.png";
 import Btn from "../assets/images/downBtn.png";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 import fourDimensionData from "../assets/jsons/world.json";
 
 var h_top = [];
@@ -19,7 +18,6 @@ const World = () => {
         ];
     }
     useEffect(() => {
-        document.body.scrollTo(0, 0);
         scrolltop();
     }, []);
 
@@ -31,14 +29,14 @@ const World = () => {
             button.addEventListener('click', () => {
                 const targetOffsetTop = target.offsetTop;
                 if (buttonId == "upbtn") {
-                    document.body.scroll({
+                    window.body.scroll({
                         top: targetOffsetTop,
                         behavior: 'smooth'
                     });
                 }
                 else {
                     const h_top = document.body.clientWidth > 430 ? 100 : 150
-                    document.body.scroll({
+                    window.scroll({
                         top: targetOffsetTop + h_top,
                         behavior: 'smooth'
                     });
@@ -76,9 +74,9 @@ const World = () => {
     };
 
     useEffect(() => {
-        document.body.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
         return () => {
-            document.body.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -86,7 +84,6 @@ const World = () => {
 
     return (
         <>
-            <Nav posi="relative" />
             <div className="world-container">
                 <div className="tab-bar">
                     <div className="progress-bar">
@@ -162,7 +159,6 @@ const World = () => {
             <div id="upbtn" className="upbtn" onClick={() => scrollToElement("upbtn", "nav", "-100")}>
                 <img src={Btn} alt="" style={{ display: cover == "cover2" ? "block" : "none" }} />
             </div>
-            <Footer />
         </>
     );
 }

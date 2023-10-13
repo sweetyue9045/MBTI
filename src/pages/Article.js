@@ -4,18 +4,10 @@ import BANNER from "../assets/images/article_cover.png";
 import BANNER2 from "../assets/images/article_cover2.png";
 import Btn from "../assets/images/downBtn.png";
 
-// import typeData from "../assets/jsons/personality.json";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
-
 const Article = () => {
-    useEffect(() => {
-        document.body.scrollTo(0, 0);
-    }, []);
     const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
     return (
         <>
-            <Nav posi="absolute" />
             <div className="article-container">
                 <div className="Banner">
                     <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />
@@ -35,7 +27,6 @@ const Article = () => {
                     Coming soon...
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

@@ -1,6 +1,7 @@
 .world-container {
     max-width: 1776px;
     display: flex;
+    padding-top: 100px;
 }
 
 .tab-bar {
@@ -138,7 +139,7 @@
         display: flex;
         position: sticky;
         top: 0;
-        z-index: 100;
+        z-index: 99;
         background-color: #fff;
 
     }
@@ -185,6 +186,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 45px;
     }
 
     .tab-bar {
@@ -194,7 +196,7 @@
         display: flex;
         position: sticky;
         top: 0;
-        z-index: 100;
+        z-index: 99;
         background-color: #fff;
 
     }

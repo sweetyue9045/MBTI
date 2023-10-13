@@ -47,9 +47,10 @@ body {
     height: 100%;
     background-color: #fff;
     color: #000;
+}
+html{
     overflow-x: hidden;
 }
-
 button {
     background-color: transparent;
     border: none;
@@ -74,6 +75,7 @@ input {
 li {
     list-style: none;
 }
+
 
 @media only screen and (min-width: 431px) and (max-width: 1024px) {
     :root {

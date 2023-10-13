@@ -1,12 +1,12 @@
 import "../style/Nav.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import LOGO from "../assets/images/nav_logo.png";
 import LOGO2 from "../assets/images/nav_logo2.png";
 import HAM_OPEN from "../assets/images/ham_open.png";
 import HAM_CLOSE from "../assets/images/ham_close.png";
 
 
-export default function Nav({ posi ,bgcolor }) {
+export default function Nav() {
     const ClickHandler = (event) => {
 		event.preventDefault();
 	};
@@ -33,6 +33,8 @@ export default function Nav({ posi ,bgcolor }) {
         hamnav.style.display="flex";
         nav.style.height="100vh";
         nav.style.backgroundColor="#fff";
+        nav.style.position = "fixed";
+
     }
 
     var click_close = function (e) {
@@ -51,26 +53,27 @@ export default function Nav({ posi ,bgcolor }) {
         hamnav.style.display="none";
         nav.style.height="10vw";
         nav.style.backgroundColor="transparent";
+        nav.style.position = "absolute";
     }
     return (
-        <nav id="nav" style={{ position: posi, backgroundColor: bgcolor}}>
+        <nav id="nav">
             <div id="nav-container" className="nav-container" style={{  display: logo == "logo1" ? "flex":"none"}}>
-                <Link to="/">
+                <NavLink to="/">
                     <div className="logo">
                         <img src={LOGO} alt="logo.png" style={{ display: logo == "logo1" ? "block" : "none" }}/>
                         <img src={LOGO2} alt="logo.png" style={{ display: logo == "logo2" ? "block" : "none" }} />
                     </div>
-                </Link>
+                </NavLink>
                 <ul className="menu">
-                    <li><Link to="/world" className="menu_link">
+                    <li><NavLink to="/world" className="menu_link">
                         <div className="menu_btn">世界觀</div>
-                    </Link></li>
-                    <li><Link to="/article" className="menu_link">
+                    </NavLink></li>
+                    <li><NavLink to="/article" className="menu_link">
                         <div className="menu_btn">文章解析</div>
-                    </Link></li>
-                    <li><Link to="/membership" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
+                    </NavLink></li>
+                    <li><NavLink to="/membership" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
                         <div className="menu_btn" style={{border:"#777 solid 3px"}}>註冊</div>
-                    </Link></li>
+                    </NavLink></li>
                 </ul>
             </div>
             <div className="hambtn" style={{ display: logo == "logo2" ? "block":"none"}}>

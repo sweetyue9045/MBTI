@@ -7,6 +7,7 @@
     font-family: 'ヒラギノ角ゴ ProN W8';
     letter-spacing: 4px;
     font-size: var(--fz90);
+    margin-top: -10px;
 }
 
 .article-container .Banner .btn {
