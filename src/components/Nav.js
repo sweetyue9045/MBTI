@@ -58,17 +58,17 @@ export default function Nav() {
     return (
         <nav id="nav">
             <div id="nav-container" className="nav-container" style={{  display: logo == "logo1" ? "flex":"none"}}>
-                <NavLink to="/">
+                <NavLink to="/" onClick={() => click_close()}>
                     <div className="logo">
                         <img src={LOGO} alt="logo.png" style={{ display: logo == "logo1" ? "block" : "none" }}/>
                         <img src={LOGO2} alt="logo.png" style={{ display: logo == "logo2" ? "block" : "none" }} />
                     </div>
                 </NavLink>
                 <ul className="menu">
-                    <li><NavLink to="/world" className="menu_link">
+                    <li><NavLink to="/world" className="menu_link" onClick={() => click_close()}>
                         <div className="menu_btn">世界觀</div>
                     </NavLink></li>
-                    <li><NavLink to="/article" className="menu_link">
+                    <li><NavLink to="/article" className="menu_link" onClick={() => click_close()}>
                         <div className="menu_btn">文章解析</div>
                     </NavLink></li>
                     <li><NavLink to="/membership" className="menu_link" style={{cursor: "default", color:"#777"}} onClick={ClickHandler}>
