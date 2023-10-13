@@ -6,4 +6,4 @@
 >
 
 ### RWD
-有PC版、PAD版與手機版。
+PC、PAD、Mobile
