@@ -97,6 +97,7 @@ nav .logo {
     }
     .menu {
         flex-direction: column;
+        margin-top: 20px;
     }
     .menu li {
         margin: 15px;
