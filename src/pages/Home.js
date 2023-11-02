@@ -6,12 +6,14 @@ import BANNER from "../assets/images/home_cover.png";
 import BANNER2 from "../assets/images/home_cover2.png";
 import homeData from "../assets/jsons/home.json";
 
+import Nav from "../components/Nav";
 import Section from "../components/H_section";
 
 const Home = () => {
     const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
     return (
         <>
+            <Nav/>
             <div className="home-container">
                 <div className="Banner">
                     <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />

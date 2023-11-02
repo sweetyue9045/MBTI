@@ -1,10 +1,9 @@
 import "../style/Personality.css";
-import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import typeData from "../assets/jsons/personality.json";
 
-
+import Nav from "../components/Nav";
 
 const Personality = () => {
     const { typeId } = useParams()
@@ -13,6 +12,7 @@ const Personality = () => {
     );
     return (
         <>
+            <Nav />
             <div className="personality-container">
                 <div className="Banner">
                     <div className="intro">

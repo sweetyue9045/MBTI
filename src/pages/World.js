@@ -7,6 +7,8 @@ import WV_img3 from "../assets/images/WV_img3.png";
 import Btn from "../assets/images/downBtn.png";
 import fourDimensionData from "../assets/jsons/world.json";
 
+import Nav from "../components/Nav";
+
 var h_top = [];
 const World = () => {
     const scrolltop = () => {
@@ -83,6 +85,7 @@ const World = () => {
 
     return (
         <>
+            <Nav/>
             <div className="world-container">
                 <div className="tab-bar">
                     <div className="progress-bar">

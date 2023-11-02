@@ -4,10 +4,13 @@ import BANNER from "../assets/images/article_cover.png";
 import BANNER2 from "../assets/images/article_cover2.png";
 import Btn from "../assets/images/downBtn.png";
 
+import Nav from "../components/Nav";
+
 const Article = () => {
     const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
     return (
         <>
+            <Nav/>
             <div className="article-container">
                 <div className="Banner">
                     <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />
