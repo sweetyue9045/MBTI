@@ -1,13 +1,12 @@
 import "../style/Home.css";
-import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import BANNER from "../assets/images/home_cover.png";
 import BANNER2 from "../assets/images/home_cover2.png";
 import homeData from "../assets/jsons/home.json";
 
-import Nav from "../components/Nav";
 import Section from "../components/H_section";
+import Nav from "../components/Nav";
 
 const Home = () => {
     const cover = document.body.clientWidth > 430 ? "cover1" : "cover2";
@@ -16,8 +15,8 @@ const Home = () => {
             <Nav/>
             <div className="home-container">
                 <div className="Banner">
-                    <img src={BANNER} alt="cover.png" style={{ display: cover == "cover1" ? "block" : "none" }} />
-                    <img src={BANNER2} alt="cover.png" style={{ display: cover == "cover2" ? "block" : "none" }} />
+                    <img src={BANNER} alt="cover.png" style={{ display: cover === "cover1" ? "block" : "none" }} />
+                    <img src={BANNER2} alt="cover.png" style={{ display: cover === "cover2" ? "block" : "none" }} />
                     <div className="intro">
                         <div className="item typo"></div>
                         <div className="item content">

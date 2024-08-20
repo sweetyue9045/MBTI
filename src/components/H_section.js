@@ -13,7 +13,7 @@ const Section = ({ item }) => {
           <Link to={'/personality/' + each.typeLetter}>
             <div className="section-each-type">
               <div className="section-each-img">
-                <img src={each.imageUrl} />
+                <img src={each.imageUrl} alt={each.imageUrl}/>
               </div>
               <div className="section-each-label">
                 {each.typeLetter}

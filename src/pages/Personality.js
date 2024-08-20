@@ -8,7 +8,7 @@ import Nav from "../components/Nav";
 const Personality = () => {
     const { typeId } = useParams()
     const Personality = typeData.find(
-        (x) => x.typeLetter == typeId
+        (x) => x.typeLetter === typeId
     );
     return (
         <>

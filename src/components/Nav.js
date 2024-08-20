@@ -1,11 +1,11 @@
-import "../style/Nav.css";
 import { NavLink } from "react-router-dom";
+import "../style/Nav.css";
 import { disableScroll, enableScroll } from './ScrollUtils';
 
+import HAM_CLOSE from "../assets/images/ham_close.png";
+import HAM_OPEN from "../assets/images/ham_open.png";
 import LOGO from "../assets/images/nav_logo.png";
 import LOGO2 from "../assets/images/nav_logo2.png";
-import HAM_OPEN from "../assets/images/ham_open.png";
-import HAM_CLOSE from "../assets/images/ham_close.png";
 
 
 export default function Nav() {
@@ -62,11 +62,11 @@ export default function Nav() {
     }
     return (
         <nav id="nav">
-            <div id="nav-container" className="nav-container" style={{  display: logo == "logo1" ? "flex":"none"}}>
+            <div id="nav-container" className="nav-container" style={{  display: logo === "logo1" ? "flex":"none"}}>
                 <NavLink to="/" onClick={() => click_close()}>
                     <div className="logo">
-                        <img src={LOGO} alt="logo.png" style={{ display: logo == "logo1" ? "block" : "none" }}/>
-                        <img src={LOGO2} alt="logo.png" style={{ display: logo == "logo2" ? "block" : "none" }} />
+                        <img src={LOGO} alt="logo.png" style={{ display: logo === "logo1" ? "block" : "none" }}/>
+                        <img src={LOGO2} alt="logo.png" style={{ display: logo === "logo2" ? "block" : "none" }} />
                     </div>
                 </NavLink>
                 <ul className="menu">
@@ -81,7 +81,7 @@ export default function Nav() {
                     </NavLink></li>
                 </ul>
             </div>
-            <div className="hambtn" style={{ display: logo == "logo2" ? "block":"none"}}>
+            <div className="hambtn" style={{ display: logo === "logo2" ? "block":"none"}}>
             <img id="ham_open" className="block" src={HAM_OPEN} alt="ham_open.png" onClick={click_open.bind(this)} />
             <img id="ham_close" className="none" src={HAM_CLOSE} alt="ham_close.png" onClick={click_close.bind(this)}/>
             </div>

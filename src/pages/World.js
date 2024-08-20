@@ -29,7 +29,7 @@ const World = () => {
         if (button && target) {
             button.addEventListener('click', () => {
                 const targetOffsetTop = target.offsetTop;
-                if (buttonId == "upbtn") {
+                if (buttonId === "upbtn") {
                     window.scroll({
                         top: targetOffsetTop,
                         behavior: 'smooth'
@@ -49,25 +49,25 @@ const World = () => {
         const offsetY = document.documentElement.scrollTop + document.body.scrollTop;
         const h_top03 = document.body.clientWidth > 430 ? 300 : 1200;
         if (offsetY >= h_top[3] + h_top03) {
-            for (var i = 0; i <= 3; i++) {
+            for (let i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn3").classList.add("bottom_line")
         }
         else if (offsetY >= h_top[2] - 300 && offsetY <= h_top[3] + h_top03) {
-            for (var i = 0; i <= 3; i++) {
+            for (let i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn2").classList.add("bottom_line")
         }
         else if (offsetY >= h_top[1] - 300 && offsetY <= h_top[2] + 100) {
-            for (var i = 0; i <= 3; i++) {
+            for (let i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn1").classList.add("bottom_line")
         }
         else if (offsetY >= h_top[0] - 300 && offsetY <= h_top[1] + 100) {
-            for (var i = 0; i <= 3; i++) {
+            for (let i = 0; i <= 3; i++) {
                 document.getElementById("btn" + i).classList.remove("bottom_line")
             }
             document.getElementById("btn0").classList.add("bottom_line")
@@ -85,19 +85,27 @@ const World = () => {
 
     return (
         <>
-            <Nav/>
+            <Nav />
             <div className="world-container">
                 <div className="tab-bar">
                     <div className="progress-bar">
-                        <a id="btn0" className="progress-btn bottom_line" onClick={() => scrollToElement("btn0", "target0")}>世界觀介紹</a>
-                        <a id="btn1" className="progress-btn" onClick={() => scrollToElement("btn1", "target1")}>MBTI是什麼</a>
-                        <a id="btn2" className="progress-btn" onClick={() => scrollToElement("btn2", "target2")}>四大維度介紹</a>
-                        <a id="btn3" className="progress-btn" onClick={() => scrollToElement("btn3", "target3")}>認知功能介紹</a>
+                        <button id="btn0" className="progress-btn bottom_line" onClick={() => scrollToElement("btn0", "target0")}>
+                            世界觀介紹
+                        </button>
+                        <button id="btn1" className="progress-btn" onClick={() => scrollToElement("btn1", "target1")}>
+                            MBTI是什麼
+                        </button>
+                        <button id="btn2" className="progress-btn" onClick={() => scrollToElement("btn2", "target2")}>
+                            四大維度介紹
+                        </button>
+                        <button id="btn3" className="progress-btn" onClick={() => scrollToElement("btn3", "target3")}>
+                            認知功能介紹
+                        </button>
                     </div>
                 </div>
                 <div className="main-content" id="cont">
                     <div id="target0" className="text-content">
-                        <ContentTitle item="世界觀介紹" fz={cover == "cover1" ? "36px" : "23px"} />
+                        <ContentTitle item="世界觀介紹" fz={cover === "cover1" ? "36px" : "23px"} />
                         <img src={WV_img1} alt="WV_img1.png" />
                         <div className="content-cont">
                             一個誕生於宇宙，沒有姓名，不知道自己是誰的生物，"0號"，探索宇宙的過程，遇見了不同個性的心智怪獸們，最終融合並誕生成獨一無二的自己。
@@ -111,24 +119,24 @@ const World = () => {
                         <img src={WV_img2} alt="WV_img2.png" />
                     </div>
                     <div id="target1" className="text-content">
-                        <ContentTitle item="MBTI是什麼" fz={cover == "cover1" ? "36px" : "23px"} />
+                        <ContentTitle item="MBTI是什麼" fz={cover === "cover1" ? "36px" : "23px"} />
                         <div className="content-cont">
                             MBTI 中文全名為邁爾斯-布里格斯性格分類指標（Myers-Briggs Type Indicator），是一種人格類型學的分類模式，為美國作家Katharine Cook Briggs 和女兒 Isabel Briggs Myers 因對心理學的愛好，以心理學家榮格在 1921 年的《心理類型》為基礎，深入研究後提出。
                         </div>
                         <div className="content-cont">
                             自1998年之後的版本學界普遍認為MBTI具備一定的信度與效度。在逐漸被心理學界認可後，運用在職場、教育等領域的人員評估。
                         </div>
-                        <ContentTitle item="理論基礎" fz={cover == "cover1" ? "30px" : "22px"} mt="50px" />
+                        <ContentTitle item="理論基礎" fz={cover === "cover1" ? "30px" : "22px"} mt="50px" />
                         <div className="content-cont">
                             性格分類源自卡爾·榮格的主觀觀察，而非控制實驗。榮格認為人的意識具有四種功能，各有兩個極端。兩種非理性功能，為知覺和直覺；兩種理性功能，為思維和情感；意識的四種功能又受到兩種態度，外向性與內向性的影響。MBTI評量就是依此理論為基礎所發展出來的。
                         </div>
-                        <ContentTitle item="MBTI的爆紅" fz={cover == "cover1" ? "30px" : "22px"} mt="50px" />
+                        <ContentTitle item="MBTI的爆紅" fz={cover === "cover1" ? "30px" : "22px"} mt="50px" />
                         <div className="content-cont">
                             因為MBTI的爆紅，網路上已經有許多免費網站可以測驗，其中最受歡迎的是來自英國的公司 NERIS Analytics Limited 架設的平台：<a href="https://www.16personalities.com/free-personality-test">16Personalities</a>，將人格們賦予角色名稱和各種形象圖，讓使用者們更感覺有趣。
                         </div>
                     </div>
                     <div id="target2" className="text-content">
-                        <ContentTitle item="四大維度介紹" fz={cover == "cover1" ? "36px" : "23px"} />
+                        <ContentTitle item="四大維度介紹" fz={cover === "cover1" ? "36px" : "23px"} />
                         <img src={WV_img3} alt="WV_img1.png" />
 
                         <div className="content-cont">
@@ -151,7 +159,7 @@ const World = () => {
 
                     </div>
                     <div id="target3" className="text-content">
-                        <ContentTitle item="認知功能介紹" fz={cover == "cover1" ? "36px" : "23px"} />
+                        <ContentTitle item="認知功能介紹" fz={cover === "cover1" ? "36px" : "23px"} />
                         <div className="content-cont">
                             MBTI 中文全名為邁爾斯-布里格斯性格分類指標（Myers-Briggs Type Indicator），是一種人格類型學的分類模式，為美國作家Katharine Cook Briggs 和女兒 Isabel Briggs Myers 因對心理學的愛好，以心理學家榮格在 1921 年的《心理類型》為基礎，深入研究後提出。
                         </div>
@@ -159,7 +167,7 @@ const World = () => {
                 </div>
             </div>
             <div id="upbtn" className="upbtn" onClick={() => scrollToElement("upbtn", "nav", "-100")}>
-                <img src={Btn} alt="" style={{ display: cover == "cover2" ? "block" : "none" }} />
+                <img src={Btn} alt="" style={{ display: cover === "cover2" ? "block" : "none" }} />
             </div>
         </>
     );
