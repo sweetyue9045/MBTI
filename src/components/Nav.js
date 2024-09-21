@@ -24,8 +24,10 @@ export default function Nav() {
     const phone = document.body.clientWidth > 430 ? 'noPhone' : 'yesPhone';
     useEffect(() => {
         if (phone == 'yesPhone') {
-            document.querySelectorAll('#nav a').forEach(a => {
-                a.onclick = click_close;
+            document.querySelectorAll('#nav a').forEach((a, index) => {
+                if (index < links.length - 1) {
+                    a.onclick = click_close;
+                }
             });
         };
     }, [phone])
