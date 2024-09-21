@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import "../style/Nav.css";
 import { disableScroll, enableScroll } from './ScrollUtils';
